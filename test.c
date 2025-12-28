@@ -21,7 +21,7 @@ int main()
         for (x = y; x <= z; x += n)
         {
             if (x<=0)
-                f = pow(x, 4) * tanf(x+2);
+                f = x*x*x*x * tanf(x+2);
             else if (x>0 && x<=a)
                 f = logf(4*x*x+1);
             else
