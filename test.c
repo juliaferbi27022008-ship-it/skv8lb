@@ -8,9 +8,8 @@ int main()
     setlocale(LC_ALL, "RUS");
     float a,f,x;
     float n, y, z;
-    printf("введите а, n, y, z: ");
-    scanf_s("%f%f%f%f", &a, &n, &y, &z);
-
+    printf("введите n, a, y, z: ");
+    scanf_s("%f%f%f%f", &n, &a, &y, &z);
     if (a<=0)
         do {
             printf("Введите положительное a: ");
