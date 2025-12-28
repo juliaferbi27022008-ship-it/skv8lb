@@ -26,7 +26,7 @@ int main()
                 f = logf(4*x*x+1);
             else
                 f = logf(pow(5+x*x, 1/5.0));
-            printf("при х = %.2f f=%.2f\n", x,  f);
+            printf("при х = %.12f f=%.12f\n", x,  f);
         }
     }
 return 0;
