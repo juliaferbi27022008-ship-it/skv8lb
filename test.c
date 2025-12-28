@@ -8,9 +8,14 @@ int main()
     setlocale(LC_ALL, "RUS");
     float a,f,x;
     float n, y, z;
+<<<<<<< HEAD
     printf("введите y, z, n, a: ");
     scanf_s("%f%f%f%f", &y, &z, &n, &a);
 
+=======
+    printf("введите n, a, y, z: ");
+    scanf_s("%f%f%f%f", &n, &a, &y, &z);
+>>>>>>> feature-task
     if (a<=0)
         do {
             printf("Введите положительное a: ");
