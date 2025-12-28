@@ -29,5 +29,5 @@ int main()
             printf("при х = %.2f f=%.2f\n", x,  f);
         }
     }
-_getch();
+return 0;
 }
